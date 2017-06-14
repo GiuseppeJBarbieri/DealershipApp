@@ -1,0 +1,2 @@
+# DealershipApp
+Manages dealership.
