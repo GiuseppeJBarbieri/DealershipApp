@@ -16,5 +16,18 @@ namespace LoginForm
         {
             InitializeComponent();
         }
+
+        private void stockToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ViewStock stock = new ViewStock();
+            stock.Show();
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            LoginForm login = new LoginForm();
+            login.Show();
+        }
     }
 }
