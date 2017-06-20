@@ -32,8 +32,14 @@ namespace LoginForm
            
         }
 
-       
+        private void welcomeLbl_Click(object sender, EventArgs e)
+        {
 
-        
+        }
+
+        private void usernameTxt_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
